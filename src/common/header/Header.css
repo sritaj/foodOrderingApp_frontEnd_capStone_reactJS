@@ -1,0 +1,88 @@
+.app-header {
+  background-color: #263238;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container-header {
+  width: 98%;
+  height: 54px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-search {
+  display: flex;
+  align-items: center;
+  width: 320px !important;
+  color: white;
+}
+
+.MuiInput-underline:after {
+  border-bottom-color: white !important ;
+}
+
+.dispNone {
+  display: none;
+}
+
+.dispBlock {
+  display: block;
+}
+
+.red {
+  color: red;
+}
+
+.custom-formhelper {
+  color: red;
+  height: max-content;
+  width: 270px;
+}
+
+.tabs {
+  margin-bottom: 20px;
+}
+
+.formControl {
+  width: 80%;
+}
+
+.loggedInButton {
+  color: white !important;
+  font-weight: 400 !important;
+}
+
+.linkedPage {
+  text-decoration: none;
+  color: black;
+  text-decoration-line: none;
+  -moz-text-decoration-line: none;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#simple-menu {
+  margin-top: 30px;
+  padding: 0px;
+}
+
+@media screen and (max-width: 400px) {
+  .flex-container-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: auto;
+  }
+
+  .app-header {
+    height: auto;
+  }
+
+  .flex-container-header > div {
+    margin-bottom: 10px;
+  }
+}
